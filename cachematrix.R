@@ -6,7 +6,7 @@
 ## Has set/get functions for the value of the matrix and for the inverse of the matrix
 makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL
-    set <- function(y) {
+	set <- function(y) {
 		x <<- y
 		m <<- NULL
 	}
